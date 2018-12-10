@@ -1,0 +1,58 @@
+#lyric{
+	width: 100%;
+	position: absolute;
+	top:50px;
+	bottom:54px;
+	background:url(/images/detailsBg.jpg);
+	background-size: cover;
+	color:white;
+	overflow-y: hidden;
+}
+#lyric .mtk{
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+#lyric .mtk .pic{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	animation:8s linear moveRun infinite;
+	animation-play-state:paused;
+}
+#lyric .mtk .pic img{
+	width: 100%;
+	height: 100%;
+}
+#lyric .mtk .content{
+	width:100%;
+	position:absolute;
+	top:250px;
+	left:0;
+	height: 360px;
+	overflow: hidden;
+}
+#lyric ul{
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	color:white;
+	font-size:16px;
+	transition:.2s;
+} 
+#lyric li{
+	margin-top: 12px;
+}
+#lyric li.active{
+	color:#00ffff;
+}
+@keyframes moveRun{
+	0%{ transform : rotate(0deg); }
+	100%{ transform : rotate(360deg); }
+}

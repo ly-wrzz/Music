@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font: 12px/1.5 "hiragino sans gb",arial;
+	color: #555;
+	background: #fff;
+}
+li{
+	list-style:none;
+}
+#root , #main{
+	width:100%;
+	height:100%;
+	position:relative;
+	margin:0 auto;
+}

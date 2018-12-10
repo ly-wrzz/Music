@@ -1,0 +1,43 @@
+#hotSong{
+	margin-top: 50px;
+	width: 100%;
+	background-size: cover;
+	overflow-y: auto;
+	background-color: #fff;
+	margin-bottom: 54px;
+}
+#hotSong li{
+	height:60px;
+}
+#hotSong .hotSongOrder{
+	width:60px;
+	float: left;
+	font-size: 18px;
+	line-height: 60px;
+	text-align: center;
+}
+#hotSong .hotSongName{
+	float: left;
+}
+#hotSong .hotSongName h3{
+	font-weight: 300;
+	font-size: 18px;
+	color: #000;
+	margin-top: 10px;
+	width:200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+#hotSong .hotSongName p{
+	color: #999;
+	width:200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+#hotSong li.active .hotSongName h3,
+#hotSong li.active .hotSongName p,
+#hotSong li.active .hotSongOrder{
+	color: #2ca2f9;
+}
